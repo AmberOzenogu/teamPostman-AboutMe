@@ -1,7 +1,7 @@
 {
-	"id": "406f51a3-0646-4846-b984-63b8e9302ac8",
+	"id": "b41563d9-30d1-4a4a-93c1-a914d0649272",
 	"name": "API Collection",
-	"timestamp": "2022-11-22T21:19:16.493Z",
+	"timestamp": "2022-11-22T21:41:19.958Z",
 	"collection_id": "24228769-92fa19d0-cfd1-4231-ba8d-d9b4aef47bc0",
 	"folder_id": 0,
 	"environment_id": "24228769-83c1bcae-0a00-4c21-a9cd-ad36e7984aaa",
@@ -12,7 +12,7 @@
 			"id": "a8d4c88a-56f1-48b6-bb61-ae8bafd7a3c5",
 			"name": "Get All Todo Entries",
 			"url": "https://demo.fusio-project.org/index.php/todo",
-			"time": 559,
+			"time": 503,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -32,7 +32,7 @@
 				}
 			},
 			"times": [
-				559
+				503
 			],
 			"allTests": [
 				{
@@ -45,7 +45,7 @@
 			"id": "e11290e9-8ecf-4996-84a5-b0c9b2a36ee5",
 			"name": "Get All Entries",
 			"url": "https://demo.fusio-project.org/index.php/",
-			"time": 267,
+			"time": 252,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -105,7 +105,7 @@
 				}
 			},
 			"times": [
-				267
+				252
 			],
 			"allTests": [
 				{
@@ -126,7 +126,7 @@
 			"id": "e81bc9fa-c1f2-43c8-a261-a889ed9a1f8b",
 			"name": "Get entry per ID",
 			"url": "https://demo.fusio-project.org/index.php/todo/?todo_id=2",
-			"time": 209,
+			"time": 196,
 			"responseCode": {
 				"code": 404,
 				"name": "Not Found"
@@ -146,7 +146,7 @@
 				}
 			},
 			"times": [
-				209
+				196
 			],
 			"allTests": [
 				{
@@ -159,7 +159,7 @@
 			"id": "e6e1941e-bf67-4a7f-a84c-58abb1f7113e",
 			"name": "Get Books",
 			"url": "https://simple-books-api.glitch.me/books",
-			"time": 1020,
+			"time": 1076,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -224,7 +224,7 @@
 				}
 			},
 			"times": [
-				1020
+				1076
 			],
 			"allTests": [
 				{
@@ -246,7 +246,7 @@
 			"id": "833573ed-a0c5-49a9-b4d2-7a685f8a8c4e",
 			"name": "Place a book order",
 			"url": "https://simple-books-api.glitch.me/orders",
-			"time": 364,
+			"time": 272,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -281,7 +281,7 @@
 				}
 			},
 			"times": [
-				364
+				272
 			],
 			"allTests": [
 				{
@@ -297,7 +297,7 @@
 			"id": "2f5fa749-958b-4ca2-865b-13c4ea8d8510",
 			"name": "Place a book order",
 			"url": "https://simple-books-api.glitch.me/orders",
-			"time": 349,
+			"time": 331,
 			"responseCode": {
 				"code": 201,
 				"name": "Created"
@@ -332,7 +332,7 @@
 				}
 			},
 			"times": [
-				349
+				331
 			],
 			"allTests": [
 				{
@@ -348,7 +348,7 @@
 			"id": "953030db-0964-439e-8e7f-c13aeb49aaf2",
 			"name": "Get all orders",
 			"url": "https://simple-books-api.glitch.me/orders",
-			"time": 297,
+			"time": 236,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -398,7 +398,7 @@
 				}
 			},
 			"times": [
-				297
+				236
 			],
 			"allTests": [
 				{
@@ -416,8 +416,8 @@
 		{
 			"id": "974e959e-add7-46e7-bef4-1ca825c13b3e",
 			"name": "Get an order",
-			"url": "https://simple-books-api.glitch.me/orders/O6P3BFQE4cGcbB3-Bw1MV",
-			"time": 254,
+			"url": "https://simple-books-api.glitch.me/orders/tv3HcK_HUEFQa7rjTqiSc",
+			"time": 227,
 			"responseCode": {
 				"code": 200,
 				"name": "OK"
@@ -462,7 +462,7 @@
 				}
 			},
 			"times": [
-				254
+				227
 			],
 			"allTests": [
 				{
@@ -479,7 +479,7 @@
 		{
 			"id": "aeb28212-9a70-4a1b-b755-3ea01a15777a",
 			"name": "Delete an order",
-			"url": "https://simple-books-api.glitch.me/orders/O6P3BFQE4cGcbB3-Bw1MV",
+			"url": "https://simple-books-api.glitch.me/orders/tv3HcK_HUEFQa7rjTqiSc",
 			"time": 873,
 			"responseCode": {
 				"code": 204,
@@ -511,7 +511,7 @@
 		}
 	],
 	"count": 1,
-	"totalTime": 4192,
+	"totalTime": 3966,
 	"collection": {
 		"requests": [
 			{
